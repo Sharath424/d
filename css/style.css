@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f5f8;
+    line-height: 2.2;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  nav {
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .fa-bars {
+    font-size: 1.5rem;
+    color: #e94949;
+    cursor: pointer;
+  }
+  .fa-bars:hover {
+    color: black;
+  }
+  .menu a {
+    color: gray;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+  }
+  .menu a:hover {
+    background: #f8a5a5;
+    color: #e94949;
+    padding-left: 1.5rem;
+  }
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  .show-menu {
+    height: 10rem;
+  }
+  .nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  @media (min-width: 800px) {
+    .nav_main {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    .nav_header {
+      padding: 0;
+    }
+    .fa-bars {
+      display: none;
+    }
+    .menu {
+      height: auto;
+      display: flex;
+    }
+    .menu a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .menu a:hover {
+      padding: 0;
+      background: transparent;
+    }
+}
+#Coin_image{
+  border-radius: 100%;
+  height: auto;
+  width: 30%;
+}
+h3{
+  background-color: violet;
+  font-style: italic;
+}
+.of{
+  background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1200px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  margin-left: 15px;
+  text-align: center;
+}
+.to{  background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1200px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  text-align: left;
+}
+.or{
+  background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1200px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  text-align: center;
+}
+.tt{
+  background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1000px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  margin-left: 15px;
+}
+.gg{
+  background-color: rgb(201, 172, 172);
+background: transparent;
+width: 1000px ;
+box-shadow:0 5px 15px rgb(194, 230, 230);
+text-shadow: teal;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+color:lightcoral;
+margin-left: 15px;
+}
+.gg :hover{
+  background: transparent;
+  padding-left: 15px;
+}
+li{
+  list-style-type: none;
+}
+.e{
+  overflow: hidden;
+}
+.t{
+  background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1000px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  margin-left: 15px;
+  }
+  .h{
+    background-color: rgb(201, 172, 172);
+  background: transparent;
+  width: 1000px ;
+  box-shadow:0 5px 15px rgb(194, 230, 230);
+  text-shadow: teal;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:lightcoral;
+  margin-left: 15px;
+  }
+
